@@ -40,5 +40,5 @@ Vamos analisar seu Repositorio no GIT, os commits(comentarios e mudanças), orga
 Mockup de referência(seja criativo...):
 ![Mockup Photo](https://preview.ibb.co/hgFVex/mockup.png 'Trackmob Frontend Test')
 
-Boa sorte! :)
+Boa sorte :)
 
