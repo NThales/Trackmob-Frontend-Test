@@ -12,8 +12,20 @@ export default function App() {
   return (
     <NavigationContainer>
       <Stack.Navigator>
-        <Stack.Screen name="Home" component={Home} />
-        <Stack.Screen name="Create" component={Create} />
+        <Stack.Screen
+          name="Home"
+          component={Home}
+          options={{headerShown: false}}
+        />
+        <Stack.Screen
+          name="Create"
+          component={Create}
+          options={{
+            headerTitle: 'Cadastro',
+            alignItems: 'center',
+            elevation: 4,
+          }}
+        />
       </Stack.Navigator>
     </NavigationContainer>
   );
